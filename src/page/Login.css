@@ -1,0 +1,171 @@
+/* Center the whole page */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background: #f3f6fa;
+  min-height: 100vh;
+}
+
+/* Login Box */
+.login-box {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-box h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.login-box input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+.login-box button {
+  width: 95%;
+  padding: 10px;
+  margin-top: 12px;
+  background: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background: #0056b3;
+}
+
+/* Message */
+.message {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #444;
+}
+
+/* User Data Box */
+.user-data {
+  margin-top: 20px;
+  text-align: left;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Users Table */
+.users-box {
+  width: 90%;
+  max-width: 600px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.users-box h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.users-box button {
+  padding: 8px 14px;
+  margin-bottom: 15px;
+  background: #28a745;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.users-box button:hover {
+  background: #1e7e34;
+}
+
+.users-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-box th, .users-box td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.users-box th {
+  background: #007bff;
+  color: white;
+}
+
+.users-box tr:nth-child(even) {
+  background: #f9f9f9;
+}
+.create-box {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.create-box h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.create-box input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.create-box input:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.4);
+}
+
+.create-box button {
+  width: 95%;
+  padding: 10px;
+  margin-top: 12px;
+  background: #28a745;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.create-box button:hover {
+  background: #1e7e34;
+}
