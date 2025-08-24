@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Index from './page/home';
+import Login from './page/login';
 
 function App() {
   return (
     <div className="App">
-     <Index/>
+     <Login/>
     </div>
   );
 }
