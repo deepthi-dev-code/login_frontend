@@ -21,7 +21,7 @@ function Login() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const res:any = await axios.post("http://localhost:5000/api/login", formData);
+      const res:any = await axios.post("https://login-backend-1-zh0o.onrender.com/api/login", formData);
       setMessage(res.data.message);
       setUserData(res.data.user);
     } catch (err) {
@@ -32,7 +32,7 @@ function Login() {
  const handleSubmitUser = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const res: any = await axios.post("http://localhost:5000/api/users", formData);
+      const res: any = await axios.post("https://login-backend-1-zh0o.onrender.com/api/users", formData);
       setMessage("✅ User created successfully!");
       setUserDatacreate(res.data.user);
       setFormData({ name: "", email: "", password: "" }); // clear form
@@ -44,7 +44,7 @@ function Login() {
 
   const handleGetUsers = async () => {
     try {
-      const res:any = await axios.get("http://localhost:5000/api/users");
+      const res:any = await axios.get("https://login-backend-1-zh0o.onrender.com/api/users");
       setUsers(res.data);
       setMessage("✅ Users fetched successfully!");
     } catch (err) {
