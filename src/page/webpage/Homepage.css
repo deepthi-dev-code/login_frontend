@@ -1,0 +1,149 @@
+.homepage {
+  min-height: 100vh;
+  background: #82878c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Top Section: Form + Image */
+.top-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 90%;
+  max-width: 1100px;
+}
+
+@media (min-width: 768px) {
+  .top-section {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.form-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #1d4ed8;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-container input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.form-container input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 3px #2563eb;
+}
+
+.form-container button {
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.form-container button:hover {
+  background: #1e40af;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.new-user {
+  margin-top: 15px;
+  padding: 12px;
+  background: #ecfdf5;
+  border: 1px solid #10b981;
+  border-radius: 6px;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+/* Table Section */
+.table-section {
+  margin-top: 30px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 1100px;
+}
+
+.table-section h2 {
+  font-size: 22px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.fetch-btn {
+  padding: 10px 18px;
+  margin-bottom: 15px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.fetch-btn:hover {
+  background: #15803d;
+}
+
+.table-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-section th,
+.table-section td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.table-section th {
+  background: #f3f4f6;
+}
