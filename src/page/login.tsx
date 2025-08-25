@@ -123,7 +123,7 @@ function Login() {
 
         {userDatacreate && (
           <div className="user-data">
-            <h3>✅ New User Created</h3>
+            <h3>✅ New User in Created</h3>
             <p><strong>ID:</strong> {userDatacreate.id}</p>
             <p><strong>Name:</strong> {userDatacreate.name}</p>
             <p><strong>Email:</strong> {userDatacreate.email}</p>
